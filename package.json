@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "the matolink webpage",
   "scripts": {
-    "dev" : "next dev -H 0.0.0.0",
-    "build" : "next build",
+    "dev": "next dev -H 0.0.0.0",
+    "build": "next build",
     "prettier": "prettier -write .",
     "lint": "next lint"
   },
@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/matolink/osaka#readme",
   "dependencies": {
+    "@chakra-ui/icons": "^2.0.0",
     "@chakra-ui/react": "^1.8.8",
     "@emotion/react": "^11.9.0",
     "@emotion/styled": "^11.8.1",
